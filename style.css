@@ -71,7 +71,7 @@ p {
   font-size: 14px;
   text-align: center;
   margin-top: 16px;
-  color: rgb(55, 65, 81);
+  color: #4D5562;
 }
 
 .author-info a {
@@ -82,7 +82,7 @@ p {
 /* UTILITIES*/
 
 .divider {
-  color: lightgrey;
+  color: #D9D9D9;
   margin-top: 2rem;
   font-weight: 200;
   font-size: 32px;
