@@ -1,82 +1,81 @@
 /* GENERAL */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      body {
-        height: 100vh;
-        font-family: "DM Sans", sans-serif;
-        font-optical-sizing: auto;
+body {
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
 
-      }
-
-      p{
+p {
   color: rgb(85, 85, 85);
   font-weight: bold;
- padding-top: 1rem;
-      }
+  padding-top: 1rem;
+}
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
 
-      .author-info a {
-        text-decoration: none;
-      }
-
-
+.author-info a {
+  text-decoration: none;
+}
 
 /* ARTICLES*/
 
-
-#articles-container{
-    display: flex;
-    justify-content: center;
+#articles-container {
+  display: flex;
+  justify-content: center;
 }
 
-h1, .divider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
+h1,
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
-.thumbnail{
-    height: auto; 
-    border-radius: 0.75rem;
-
+.thumbnail {
+  height: auto;
+  border-radius: 0.75rem;
 }
 .article-text {
-flex: 1;
+  flex: 1;
   text-align: left;
 }
 
-.article-container{
-display: flex;
-align-items: center;
-justify-content: flex-start;
-margin: 0 auto;
- padding: 1.5rem;
+.article-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 1.5rem;
   flex: 1;
   text-align: center;
   gap: 5rem;
-   max-width: 800px;
+  max-width: 800px;
 }
 
-.divider{
-    color: lightgrey;
-    margin-top: 2rem;
-    font-weight: 200;
-    font-size: 32px;
+.divider {
+  color: lightgrey;
+  margin-top: 2rem;
+  font-weight: 200;
+  font-size: 32px;
 }
 
-h1{
-    margin: 2rem 0;
+h1 {
+  margin: 2rem 0;
 }
