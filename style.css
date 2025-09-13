@@ -11,11 +11,13 @@
         height: 100vh;
         font-family: "DM Sans", sans-serif;
         font-optical-sizing: auto;
+
       }
 
       p{
   color: rgb(85, 85, 85);
   font-weight: bold;
+ padding-top: 1rem;
       }
 
       .author-info {
@@ -31,4 +33,50 @@
 
 
 
+/* ARTICLES*/
 
+
+#articles-container{
+    display: flex;
+    justify-content: center;
+}
+
+h1, .divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.thumbnail{
+    height: auto; 
+    border-radius: 0.75rem;
+
+}
+.article-text {
+flex: 1;
+  text-align: left;
+}
+
+.article-container{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin: 0 auto;
+ padding: 1.5rem;
+  flex: 1;
+  text-align: center;
+  gap: 5rem;
+   max-width: 800px;
+}
+
+.divider{
+    color: lightgrey;
+    margin-top: 2rem;
+    font-weight: 200;
+    font-size: 32px;
+}
+
+h1{
+    margin: 2rem 0;
+}
