@@ -98,10 +98,10 @@ p {
     padding: 1rem 0;
   }
 
-  .thumbnail {
-    width: 100%;
-    max-width: 420px;                 
+.article-container {
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: auto;
   }
-
   .article-title { font-size: 1rem; }
 }
