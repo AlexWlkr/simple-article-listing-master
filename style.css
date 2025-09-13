@@ -36,8 +36,22 @@ h1 {
   color: rgb(85, 85, 85);
   font-weight: bold;
 }
-p{
-    line-height: 1.6;
+p {
+  line-height: 1.6;
+}
+
+/* LAYOUT */
+
+.article-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 1.5rem;
+  flex: 1;
+  text-align: center;
+  gap: 5rem;
+  max-width: 800px;
 }
 
 .author-info {
@@ -51,12 +65,9 @@ p{
   text-decoration: none;
 }
 
-/* ARTICLES*/
+/* COMPONENTS*/
 
-#articles-container {
-  display: flex;
-  justify-content: center;
-}
+/* UTILITIES*/
 
 h1,
 .divider {
@@ -75,23 +86,9 @@ h1,
   text-align: left;
 }
 
-.article-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding: 1.5rem;
-  flex: 1;
-  text-align: center;
-  gap: 5rem;
-  max-width: 800px;
-}
-
 .divider {
   color: lightgrey;
   margin-top: 2rem;
   font-weight: 200;
   font-size: 32px;
 }
-
-
